@@ -10,7 +10,7 @@ type Boundary = Integer
 -- | /Configurable/
 -- The key code used to trigger the zeno interactions.
 zenoKey :: KeyCode
-zenoKey = 133
+zenoKey = 64
 
 getTime :: IO Time
 getTime = floor <$> getPOSIXTime
