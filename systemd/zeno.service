@@ -1,0 +1,13 @@
+[Unit]
+Description=Zeno binary search mouse control
+After=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=%h/bin/zeno
+Restart=always
+RestartSec=5
+WorkingDirectory=%h
+
+[Install]
+WantedBy=default.target
