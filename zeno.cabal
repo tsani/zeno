@@ -20,7 +20,7 @@ executable zeno
   main-is:           Main.hs
   hs-source-dirs:    src
   build-depends:
-    base >=4.6 && <5,
-    time >=1.5 && <1.9,
-    X11 >=1.6 && <1.9,
-    xtest >=0.2 && <0.3
+    base,
+    time,
+    X11,
+    xtest
